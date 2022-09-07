@@ -42,9 +42,8 @@
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#licensing">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -55,7 +54,7 @@
 
 [![Product Screen Shot][product-screenshot]](https://.com)
 
-TODO: About summary and check in screenshot of game.
+TODO: About summary
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +90,7 @@ Download the project zip and extract it to the desired destination, then using t
 - [ ] Mini-game addition
 - [ ] Choose your pet - BooBoo Bear's sidekicks
     - [ ] Scrappy Dog
+    - [ ] Belle Beau
 
 See the [open issues](https://github.com/dannya1985/SuperPupAdventure/issues) for a full list of proposed features (and known issues).
 
@@ -137,7 +137,7 @@ Project Link: [https://github.com/dannya1985/SuperPupAdventure](https://github.c
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: Assets/game-screenshot%201.png
 [Csharp.com]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
 [Csharp-url]: https://docs.microsoft.com/en-us/dotnet/csharp/
 [Unity.com]: https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white
