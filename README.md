@@ -63,6 +63,7 @@ TODO: About summary and check in screenshot of game.
 ### Built With
 * [![Unity][Unity.com]][Unity-url]
 * [![C#][CSharp.com]][CSharp-url]
+* [![AdobePhotoshop][AdobePhotoshop]][AdobePhotoshop-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,9 +100,11 @@ See the [open issues](https://github.com/dannya1985/SuperPupAdventure/issues) fo
 
 
 <!-- LICENSE -->
-## License
+## Licensing
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+Artwork based off of icons provided by Freepik from www.flaticon.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,3 +142,5 @@ Project Link: [https://github.com/dannya1985/SuperPupAdventure](https://github.c
 [Csharp-url]: https://docs.microsoft.com/en-us/dotnet/csharp/
 [Unity.com]: https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white
 [Unity-url]: https://jquery.com 
+[AdobePhotoshop-url]: https://www.adobe.com/products/photoshop.html
+[AdobePhotoshop]: https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white
