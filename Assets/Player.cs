@@ -9,8 +9,8 @@ public class Player : MonoBehaviour
     [SerializeField] public Sprite[] spriteArrayCape;
     [SerializeField] public bool bInvincible = false;
 
-    private BoxCollider2D collider2D;
-    private Rigidbody2D rigidbody2D;
+    private BoxCollider2D playerCollider;
+    private Rigidbody2D playerRigidbody;
     private Color cOriginalColor;
     private SpriteRenderer spriteRenderer;
     private SpriteRenderer spriteRendererCape;
@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         bInvincible = false;
-        collider2D = GetComponent<BoxCollider2D>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<BoxCollider2D>();
+        playerRigidbody = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRendererCape = GameObject.Find("PupCape").GetComponent<SpriteRenderer>();
         cOriginalColor = spriteRenderer.color;
@@ -54,7 +54,7 @@ public class Player : MonoBehaviour
     private void DoFlap(InputAction.CallbackContext obj)
     {
         Debug.Log("Flap");
-        rigidbody2D.velocity = jumpVelocity * 1.5f;
+        playerRigidbody.velocity = jumpVelocity * 1.5f;
         ChangeSprite();
     }
 
@@ -121,8 +121,8 @@ public class Player : MonoBehaviour
         {
             randomizeColor();
 
-            if (collider2D.enabled)
-                collider2D.enabled = false;
+            if (playerCollider.enabled)
+                playerCollider.enabled = false;
 
             if (transform.position.y > 4f)
                 transform.position = new Vector3(transform.position.x, 4f);
@@ -132,7 +132,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            collider2D.enabled = true;
+            playerCollider.enabled = true;
             SetSpriteColor(cOriginalColor);
 
             //resets the player position if we manage to get out of bounds somehow

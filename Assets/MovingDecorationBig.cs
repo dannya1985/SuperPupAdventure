@@ -5,14 +5,9 @@ using UnityEngine;
 public class MovingDecorationBig : MonoBehaviour
 {
     [SerializeField] private float moveSpeed        = 2f;
-
-    [SerializeField] private float maxRandomScaling = 0.2f;
-    [SerializeField] private float minRandomScaling = 0.0f;
-
+    [SerializeField] private float minRandomScaling = 0.01f;
     [SerializeField] private float maxMoveSpeed = 1.2f;
     [SerializeField] private float minMoveSpeed = 2.6f;
-
-    [SerializeField] private float minX = 2.6f;
 
     FinishLine finishScript;
 
@@ -25,6 +20,8 @@ public class MovingDecorationBig : MonoBehaviour
         transform.localScale += new Vector3(Random.Range(minRandomScaling, 0.2f), Random.Range(minRandomScaling, 0.2f), 1f);
 
         finishScript = GameObject.FindObjectOfType<FinishLine>();
+
+        minRandomScaling = 0.01f;
     }
 
     // Update is called once per frame
