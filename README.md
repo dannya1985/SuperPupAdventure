@@ -15,11 +15,11 @@
     A flappy bird inspired game dedicated to my kids and of course my dog... Boo Boo Bear.
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/dannya1985/SuperPupAdventure/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/dannya1985/SuperPupAdventure/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/dannya1985/SuperPupAdventure/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,9 +53,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://.com)
+[![Product Screen Shot][product-screenshot]](https://.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+TODO: About summary and check in screenshot of game.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,9 +110,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Dan Amos - [@twitter](https://twitter.com/RoflSausages) - [Email](mailto:74069711+dannya1985@users.noreply.github.com)
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/dannya1985/SuperPupAdventure](https://github.com/dannya1985/SuperPupAdventure)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
